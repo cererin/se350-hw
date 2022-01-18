@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a982ab4d-bd52-4bae-943a-34ca9d8a0106" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/week1">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/week2">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="23WobyQa3lNodjb6cSLqdRj0OcC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/week2/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week1/src/main/java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week2/src/main/java/org/depaul/se350/exceptionexample" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.depaul.se350" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.depaul.se350.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week1/src/main/java" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="week2.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a982ab4d-bd52-4bae-943a-34ca9d8a0106" name="Default Changelist" comment="" />
+      <created>1641859278633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641859278633</updated>
+      <workItem from="1641859282911" duration="10613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1642005245206">
+      <screen x="0" y="25" width="1680" height="974" />
+    </state>
+    <state x="653" y="232" key="#com.intellij.ide.util.MemberChooser/0.25.1680.974@0.25.1680.974" timestamp="1642005245206" />
+    <state x="611" y="375" width="457" height="282" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1641859610662">
+      <screen x="0" y="25" width="1680" height="974" />
+    </state>
+    <state x="611" y="375" width="457" height="282" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.25.1680.974@0.25.1680.974" timestamp="1641859610662" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1642006901839">
+      <screen x="0" y="25" width="1680" height="974" />
+    </state>
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.25.1680.974@0.25.1680.974" timestamp="1642006901839" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1642006901839">
+      <screen x="0" y="25" width="1680" height="974" />
+    </state>
+    <state width="1638" height="260" key="GridCell.Tab.0.center/0.25.1680.974@0.25.1680.974" timestamp="1642006901839" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1642006901838">
+      <screen x="0" y="25" width="1680" height="974" />
+    </state>
+    <state width="1638" height="260" key="GridCell.Tab.0.left/0.25.1680.974@0.25.1680.974" timestamp="1642006901838" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1642006901839">
+      <screen x="0" y="25" width="1680" height="974" />
+    </state>
+    <state width="1638" height="260" key="GridCell.Tab.0.right/0.25.1680.974@0.25.1680.974" timestamp="1642006901839" />
+    <state x="633" y="298" key="chooseDestDirectoryDialog" timestamp="1641859610451">
+      <screen x="0" y="25" width="1680" height="974" />
+    </state>
+    <state x="633" y="298" key="chooseDestDirectoryDialog/0.25.1680.974@0.25.1680.974" timestamp="1641859610451" />
+    <state x="503" y="147" width="674" height="729" key="find.popup" timestamp="1641859519464">
+      <screen x="0" y="25" width="1680" height="974" />
+    </state>
+    <state x="503" y="147" width="674" height="729" key="find.popup/0.25.1680.974@0.25.1680.974" timestamp="1641859519464" />
+    <state x="243" y="131" key="new project wizard" timestamp="1641859338255">
+      <screen x="0" y="25" width="1680" height="974" />
+    </state>
+    <state x="243" y="131" key="new project wizard/0.25.1680.974@0.25.1680.974" timestamp="1641859338255" />
+    <state x="505" y="239" key="search.everywhere.popup" timestamp="1641860818063">
+      <screen x="0" y="25" width="1680" height="974" />
+    </state>
+    <state x="505" y="239" key="search.everywhere.popup/0.25.1680.974@0.25.1680.974" timestamp="1641860818063" />
+  </component>
+</project>
