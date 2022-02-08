@@ -1,17 +1,16 @@
-import hw1classes.Airport;
-import hw1classes.Airline;
-import hw1classes.Flight;
 import exception.BadParameterException;
 import exception.NullParameterException;
-import java.util.Date;
+import java.util.*;
+import hw1classes.*;
 
 public class TravelManager {
-    public static void main(String[] args) throws BadParameterException, NullParameterException {
+    public static void main(String[] args) throws Exception, NullParameterException {
         Airport ap1 = new Airport("OHA");
-        Airline ar1 = new Airline("Amme");
-        Flight f1 = new Flight(ar1, ap1, ap1, "1000853", new Date());
+        Airport ap2 = new Airport("LSA");
+        Airline ar1 = new Airline("Heike");
 
-        System.out.println(f1);
+        FlightManager fm1 = FlightManager.getInstance();
+        fm1.createFlight(ar1, ap1, ap2);
 
     }
 }

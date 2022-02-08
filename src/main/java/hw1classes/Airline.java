@@ -2,7 +2,7 @@ package hw1classes;
 
 import exception.BadParameterException;
 import exception.NullParameterException;
-import java.util.Objects;
+import java.util.*;
 
 public class Airline {
     private String name;
@@ -17,10 +17,10 @@ public class Airline {
 
     public void setName(String arName) throws NullParameterException, BadParameterException {
         if (arName == null){
-            throw new NullParameterException("Null value passed for Airline name");
+            throw new NullParameterException("Null value passed for hw1classes.Airline name");
         }
         if (arName.length() > 7){
-            throw new BadParameterException("Value passed for Airline name is too long: " + arName);
+            throw new BadParameterException("Value passed for hw1classes.Airline name is too long: " + arName);
         }
 
         this.name = arName;
@@ -28,7 +28,7 @@ public class Airline {
 
     @Override
     public String toString() {
-        return "Airline name: " + getName();
+        return "hw1classes.Airline name: " + getName();
     }
 
     @Override

@@ -2,7 +2,7 @@ package hw1classes;
 
 import exception.BadParameterException;
 import exception.NullParameterException;
-import java.util.Objects;
+import java.util.*;
 
 public class Airport {
     private String name;
@@ -17,10 +17,10 @@ public class Airport {
 
     public void setName(String apName) throws NullParameterException, BadParameterException {
         if (apName == null){
-            throw new NullParameterException("Null value passed for Airport name");
+            throw new NullParameterException("Null value passed for hw1classes.Airport name");
         }
         if (apName.length() != 3){
-            throw new BadParameterException("Value passed for Airport name is too long or short: " + apName);
+            throw new BadParameterException("Value passed for hw1classes.Airport name is too long or short: " + apName);
         }
 
         this.name = apName.toUpperCase();
@@ -28,7 +28,7 @@ public class Airport {
 
     @Override
     public String toString() {
-        return "Airport name: " + getName();
+        return "hw1classes.Airport name: " + getName();
     }
 
     @Override
