@@ -1,22 +1,26 @@
 package hw1classes;
 
 import exception.NullParameterException;
+import exception.BadParameterException;
+import java.util.Date;
+import java.util.Objects;
+import java.util.UUID;
 
-import java.util.*;
-
-public class CommercialFlight extends Flight{
+public class PassengerFlight extends Flight{
     private Airline airline;
     private Airport origin;
     private Airport destination;
     private UUID flightNumber;
     private Date departureTime;
+    private int passengerCapacity;
 
-    public CommercialFlight(Airline airline, Airport origin, Airport destination) throws NullParameterException {
+    public PassengerFlight(Airline airline, Airport origin, Airport destination, int passengerCapacity) throws NullParameterException, BadParameterException {
         setAirline(airline);
         setOrigin(origin);
         setDestination(destination);
         setFlightNumber();
         setDepartureTime();
+        setPassengerCapacity(passengerCapacity);
     }
 
     private void setFlightNumber() {
@@ -48,6 +52,12 @@ public class CommercialFlight extends Flight{
         this.airline = airline;
     }
 
+    private void setPassengerCapacity(int passengerCapacity) throws BadParameterException{
+        if (passengerCapacity < 1)
+            throw new BadParameterException("Passenger Capacity must be more than 0.");
+        this.passengerCapacity = passengerCapacity;
+    }
+
     public String getAirline() {
         return airline.toString();
     }
@@ -68,21 +78,24 @@ public class CommercialFlight extends Flight{
         return departureTime.toString();
     }
 
+    public int getPassengerCapacity() {return passengerCapacity;}
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        CommercialFlight flight = (CommercialFlight) o;
+        PassengerFlight flight = (PassengerFlight) o;
         return Objects.equals(airline, flight.getAirline()) &&
                 Objects.equals(origin, flight.getOrigin()) &&
                 Objects.equals(destination, flight.getDestination()) &&
                 Objects.equals(flightNumber, flight.getFlightNumber()) &&
-                Objects.equals(departureTime, flight.getDepartureTime());
+                Objects.equals(departureTime, flight.getDepartureTime()) &&
+                Objects.equals(passengerCapacity, flight.getPassengerCapacity());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(airline, origin, destination, flightNumber, departureTime);
+        return Objects.hash(airline, origin, destination, flightNumber, departureTime, passengerCapacity);
     }
 
     @Override
@@ -93,6 +106,7 @@ public class CommercialFlight extends Flight{
                 ", destination=" + getDestination() +
                 ", flightNumber=" + getFlightNumber() +
                 ", departureTime=" + getDepartureTime() +
+                ", passengerCapacity=" + getPassengerCapacity() +
                 '}';
     }
 }
