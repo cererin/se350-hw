@@ -1,7 +1,6 @@
-import exception.BadParameterException;
 import exception.NullParameterException;
-import java.util.*;
 import hw1classes.*;
+import java.util.UUID;
 
 public class TravelManager {
     public static void main(String[] args) throws Exception, NullParameterException {
@@ -10,11 +9,11 @@ public class TravelManager {
         Airline ar1 = AirlineFactory.createAirline("Heike");
         Airline ar2 = AirlineFactory.createAirline("Ami");
 
-        FlightManager fm1 = FlightManager.getInstance();
-        Flight fOne = fm1.createFlight("commercial", ar1, ap1, ap2);
-        Flight fTwo = fm1.createFlight("passenger", ar2, ap1, ap2);
+        FlightManagerImpl fm1 = FlightManagerImpl.getInstance();
+        FlightManagerProxy fm2 = new FlightManagerProxy(fm1);
+        Flight fOne = fm2.createFlight("commercial", ar1, ap1, ap2);
 
-        System.out.println(fOne);
+        Flight fTwo = fm2.getFlightByNumber(UUID.fromString(fOne.getFlightNumber()));
         System.out.println(fTwo);
     }
 }
